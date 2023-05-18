@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 83px;
+  height: 94px;
+  background-color: #000;
+}
+
+.grow-list {
+  flex-grow: 1;
+}
+
+img {
+  width: 92px;
+  height: 32px;
+}
+
+.line {
+  width: 1px;
+  height: 50px;
+  background-color: #fff;
+  margin-left: 63px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 64px;
+}
+
+.logo,
+.list-item {
+  cursor: pointer;
+}
+
+.button-small {
+  padding: 7px 28px;
+  background: #ba0cc5;
+  border-radius: 6px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+.hero {
+  background-image: url("bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 91.5vh;
+  text-align: center;
+}
+
+.hero-heading {
+  max-width: 846px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 172px;
+}
+
+.hero-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+}
+
+.button-large {
+  background: #ba0cc5;
+  border-radius: 11px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  border: none;
+  padding: 14px 22px;
+  margin-top: 64px;
+  cursor: pointer;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      
+        <nav class="navbar">
+          <div>
+            <img src="white-logo.png" alt="logo" class="logo" />
+          </div>
+          <div class="line"></div>
+          <div class="grow-list">
+            <ul class="list">
+              <li class="list-item">Apps</li>
+              <li class="list-item">DAO</li>
+              <li class="list-item">Technology</li>
+              <li class="list-item">Token</li>
+              <li class="list-item">Contributors</li>
+            </ul>
+          </div>
+          <div>
+            <button class="button-small">Buy 1 Token</button>
+          </div>
+        </nav>
+     
+      <!-- Hero Section -->
+      
+        <div class="hero">
+          <h1 class="hero-heading">Lets build a better tomorrow, together.</h1>
+          <p class="hero-description">
+            Buy 1 Token. Join the DAO. Change the world
+          </p>
+          <button class="button-large">Request Early Access</button>
+        </div>
+    
+    </div>
+  </body>
+</html>
